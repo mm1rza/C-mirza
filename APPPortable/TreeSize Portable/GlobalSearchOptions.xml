@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalOptions>
+	<LastUsedFileOperationOptions></LastUsedFileOperationOptions>
+	<AddNewScanDialogWindowPlacement.length>44</AddNewScanDialogWindowPlacement.length>
+	<AddNewScanDialogWindowPlacement.flags>0</AddNewScanDialogWindowPlacement.flags>
+	<AddNewScanDialogWindowPlacement.showCmd>1</AddNewScanDialogWindowPlacement.showCmd>
+	<AddNewScanDialogWindowPlacement.ptMinPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</AddNewScanDialogWindowPlacement.ptMinPosition>
+	<AddNewScanDialogWindowPlacement.ptMaxPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</AddNewScanDialogWindowPlacement.ptMaxPosition>
+	<AddNewScanDialogWindowPlacement.rcNormalPosition>
+		<Left>26</Left>
+		<Top>26</Top>
+		<Right>626</Right>
+		<Bottom>695</Bottom>
+	</AddNewScanDialogWindowPlacement.rcNormalPosition>
+	<SearchFormWindowPlacement.length>44</SearchFormWindowPlacement.length>
+	<SearchFormWindowPlacement.flags>0</SearchFormWindowPlacement.flags>
+	<SearchFormWindowPlacement.showCmd>1</SearchFormWindowPlacement.showCmd>
+	<SearchFormWindowPlacement.ptMinPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</SearchFormWindowPlacement.ptMinPosition>
+	<SearchFormWindowPlacement.ptMaxPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</SearchFormWindowPlacement.ptMaxPosition>
+	<SearchFormWindowPlacement.rcNormalPosition>
+		<Left>26</Left>
+		<Top>26</Top>
+		<Right>1062</Right>
+		<Bottom>757</Bottom>
+	</SearchFormWindowPlacement.rcNormalPosition>
+</GlobalOptions>

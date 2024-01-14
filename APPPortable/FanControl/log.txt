@@ -1,0 +1,72 @@
+
+19-Jul-23 11:51:45 AM: NvAPIWrapper.Native.Exceptions.NVIDIAApiException: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+   at NvAPIWrapper.Native.GPUApi.GetThermalSettings(PhysicalGPUHandle physicalGPUHandle, ThermalSettingsTarget sensorTarget)
+   at NvAPIWrapper.GPU.GPUThermalInformation.get_ThermalSensors()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiTempSensor.Update()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiWrapperBackendProvider.Update()
+19-Jul-23 11:51:45 AM: NvAPI failed. A complete refresh is required.
+19-Jul-23 11:52:20 AM: Unhandled exception in FanControl v163.0.0.0
+19-Jul-23 11:52:20 AM: NvAPIWrapper.Native.Exceptions.NVIDIAApiException: NVAPI_API_NOT_INITIALIZED
+   at NvAPIWrapper.Native.GPUApi.GetCoolerSettings(PhysicalGPUHandle gpuHandle, CoolerTarget coolerTarget)
+   at NvAPIWrapper.GPU.GPUCoolerInformation.<get_Coolers>d__2.MoveNext()
+   at System.Linq.Enumerable.ElementAtOrDefault[TSource](IEnumerable`1 source, Int32 index)
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiControlSensor.Reset()
+   at FanControl.ViewModels.MainWindowViewModel.Dispose()
+   at Autofac.Core.Disposer.Dispose(Boolean disposing)
+   at Autofac.Util.Disposable.Dispose()
+   at Autofac.Core.Lifetime.LifetimeScope.Dispose(Boolean disposing)
+   at Autofac.Util.Disposable.Dispose()
+   at Autofac.Core.Container.Dispose(Boolean disposing)
+   at Autofac.Util.Disposable.Dispose()
+   at FanControl.App.OnExit(ExitEventArgs e)
+   at System.Windows.Application.DoShutdown()
+   at System.Windows.Application.ShutdownImpl()
+   at System.Windows.Application.ShutdownCallback(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+23-Jul-23 6:02:48 AM: System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__23.MoveNext()
+23-Jul-23 6:02:48 AM: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+07-Aug-23 5:19:10 AM: System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__23.MoveNext()
+07-Aug-23 5:19:10 AM: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+18-Aug-23 6:14:16 AM: System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__23.MoveNext()
+18-Aug-23 6:14:16 AM: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+27-Dec-23 8:31:18 PM: NvAPIWrapper.Native.Exceptions.NVIDIAApiException: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+   at NvAPIWrapper.Native.GPUApi.GetThermalSettings(PhysicalGPUHandle physicalGPUHandle, ThermalSettingsTarget sensorTarget)
+   at NvAPIWrapper.GPU.GPUThermalInformation.get_ThermalSensors()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiTempSensor.Update() in C:\Users\Remi\source\repos\FanControl\FanControl.Library\Domain\BackendProviders\NVApiWrapper\NVApiTempSensor.cs:line 48
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiWrapperBackendProvider.Update() in C:\Users\Remi\source\repos\FanControl\FanControl.Library\Domain\BackendProviders\NVApiWrapper\NVApiWrapperBackendProvider.cs:line 125
+27-Dec-23 8:31:18 PM: NvAPI failed. A complete refresh is required.
+13-Jan-24 8:07:33 PM: System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+13-Jan-24 8:07:33 PM: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)

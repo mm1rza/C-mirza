@@ -1,0 +1,69 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5]
+"Language"="english.lng"
+"Current View"=dword:00000000
+"ATCPageIndex"=dword:00000000
+"ATPageIndex"=dword:00000001
+"AutoRepair"=dword:00000000
+"AutoAction"=dword:00000000
+"Curbackground"=".\\skins\\default\\backimages\\bg8.jpg"
+"Lastbackground"=".\\skins\\default\\backimages\\bg8.jpg"
+"CurSkin"="C:\\#mirza\\APPPortable\\GlaryUtilities\\App\\ProgramFiles\\skins\\default\\skin.ini"
+"Transparen"=dword:0000001a
+"BootTime"="34832"
+"Update"=dword:65a09a7c
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Advanced Tools]
+"ADT_SC_STARTUPI"=dword:00000000
+"ADT_WR_REPAIR"=dword:00000001
+"ADT_DS_CLEANUP"=dword:00000002
+"ADT_SC_CONTEXTM"=dword:00000003
+"ADT_DS_EXPLORERD"=dword:00000004
+"ADT_SC_PROCESSES"=dword:00000005
+"ADT_PROGRAMS_UNINSTALL"=dword:00000006
+"ADT_PROGRAMS_CHECKFU"=dword:00000007
+"ADT_ST_BROWSERS"=dword:00000008
+"ADT_PRIVACY_ERASEH"=dword:00000009
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\OneClick]
+"DeepClean"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\OneClick\Selected]
+"OC_CLEANREG"=dword:00000001
+"OC_REMOVEBS"=dword:00000001
+"OC_MALWARER"=dword:00000001
+"OC_DISKR"=dword:00000000
+"OC_ERASEPT"=dword:00000000
+"OC_REMOVETF"=dword:00000001
+"OC_OPTIMIZESA"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Settings]
+"AutoLoad"=dword:00000000
+"Minitotray"=dword:00000000
+"ShowBalloonMinitotray"=dword:00000000
+"SkipUAC"=dword:00000001
+"HelpPlan"=dword:00000000
+"BackupsDelete"=dword:00000001
+"SubMenuMode"=dword:00000000
+"Checkupdates"=dword:00000000
+"AutoSoftupdate"=dword:00000000
+"BackupsMax"=dword:0000003c
+"SaveLog"=dword:00000001
+"ShowQuicklaunchTips"=dword:00000001
+"Auto1ClickCare"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Settings\ContextMenu]
+"Analyze Diskspace"=dword:00000000
+"Decrypt"=dword:00000000
+"Disk Defrag"=dword:00000000
+"EmptyFolder"=dword:00000000
+"Encrypt"=dword:00000000
+"Join"=dword:00000000
+"Split"=dword:00000000
+"Wipe"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Settings\PrivacyTracks]
+"EraseTracks"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\SoftwareUpdate]
