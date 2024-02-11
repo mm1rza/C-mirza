@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "180",
+  "__VERSION__": "174",
   "Main": {
     "Controls": [
       {
@@ -98,14 +98,14 @@
         "Identifier": "NVApiWrapper/0-GP104-A/control/0",
         "IsHidden": false,
         "ManualControl": false,
-        "ManualControlValue": 56,
+        "ManualControlValue": 100,
         "MinimumPercent": 0,
-        "Name": "Control 1 - NVIDIA GeForce GTX 1070",
+        "Name": "Control 1 - GeForce GTX 1070",
         "NickName": "Control 1 - NVIDIA GeForce GTX 1070",
         "PairedFanSensor": {
           "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
           "IsHidden": false,
-          "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
+          "Name": "Fan 1 - GeForce GTX 1070",
           "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
         },
         "SelectedCommandStepDown": 8.0,
@@ -278,7 +278,7 @@
       {
         "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
         "IsHidden": false,
-        "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
+        "Name": "Fan 1 - GeForce GTX 1070",
         "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
       }
     ],
@@ -286,10 +286,9 @@
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF04A4F1",
     "SecondaryColor": "#FFAEEA00",
-    "SelectedTheme": "Inherit",
+    "SelectedTheme": "Dark",
     "ShowHiddenCards": false,
     "SyncThemeWithWindows": true,
-    "SyncTrayIconColorWithWindows": true,
     "TemperatureSensors": [],
     "TrayIconColor": "#FFFFFFFF",
     "TrayIcons": []
