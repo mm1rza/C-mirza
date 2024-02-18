@@ -1,0 +1,30 @@
+Author: BlueLife , Velociraptor
+www.sordum.org
+
+################ SendTo Menu Editor v1.3 ################
+(Wednesday, 3 May 2023)
+
+[ FIXED ] - Unable to add a folder shortcut to the software interface
+[ ADDED ] - A Feature for default user to restore files in SendTo folder
+[ ADDED ] – Some code Improvements
+
+################ SendTo Menu Editor v1.2 ################
+(Thursday, April 27, 2023)
+
+[ FIXED ] - The program does not work if the "Send to Folder" is moved to different location
+[ FIXED ] - Application requires Administrator authorization on limited user
+[ FIXED ] - The text on the interface is too small.
+[ ADDED ] – High contrast support.
+[ ADDED ] – Some code Improvements.
+
+################ SendTo Menu Editor v1.1 ################
+(Saturday, 28 July 2018) 
+
+FiXED - in standard user Send to folder of the Standard users cannot be selected
+
+################ SendTo Menu Editor v1.0 ################
+(Thursday , 28 June 2018)
+
+First release
+Send To Menu Editor” is a portable freeware which helps users manage the shortcuts present in the 
+Windows “Send To” Menu.
