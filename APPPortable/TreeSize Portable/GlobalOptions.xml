@@ -58,8 +58,8 @@
 	<MainFormWindowPlacement.flags>2</MainFormWindowPlacement.flags>
 	<MainFormWindowPlacement.showCmd>3</MainFormWindowPlacement.showCmd>
 	<MainFormWindowPlacement.ptMinPosition>
-		<X>-32000</X>
-		<Y>-32000</Y>
+		<X>-1</X>
+		<Y>-1</Y>
 	</MainFormWindowPlacement.ptMinPosition>
 	<MainFormWindowPlacement.ptMaxPosition>
 		<X>-1</X>
@@ -5762,7 +5762,7 @@
 		</Item>
 		<Item>
 			<Path>C:\</Path>
-			<TimeStamp>45303.3773348958</TimeStamp>
+			<TimeStamp>45380.4222836458</TimeStamp>
 		</Item>
 		<Item>
 			<Path>H:\</Path>
@@ -5774,11 +5774,11 @@
 		</Item>
 		<Item>
 			<Path>F:\</Path>
-			<TimeStamp>45262.818466331</TimeStamp>
+			<TimeStamp>45364.923433125</TimeStamp>
 		</Item>
 		<Item>
 			<Path>E:\</Path>
-			<TimeStamp>45333.8525005324</TimeStamp>
+			<TimeStamp>45380.4225897801</TimeStamp>
 		</Item>
 	</RecentlyScannedPaths>
 	<MRUMaximum>16</MRUMaximum>
@@ -5886,7 +5886,7 @@
 				<MaxWidth>0</MaxWidth>
 				<MinWidth>0</MinWidth>
 				<Tag>0</Tag>
-				<Width>143</Width>
+				<Width>400</Width>
 			</Item>
 			<Item Type="TJamShellListColumn">
 				<ShellIndex>2</ShellIndex>
@@ -5963,10 +5963,10 @@
 		</TJamShellListColumns>
 	</DriveListColumns>
 	<ActiveCard>1</ActiveCard>
-	<TToggleControlAction.ChartForUsersAction.Width>1501</TToggleControlAction.ChartForUsersAction.Width>
-	<TToggleControlAction.ChartForExtensionsAction.Width>1501</TToggleControlAction.ChartForExtensionsAction.Width>
+	<TToggleControlAction.ChartForUsersAction.Width>1244</TToggleControlAction.ChartForUsersAction.Width>
+	<TToggleControlAction.ChartForExtensionsAction.Width>1244</TToggleControlAction.ChartForExtensionsAction.Width>
 	<TToggleControlAction.TogglePreviewPaneAction.Height>481</TToggleControlAction.TogglePreviewPaneAction.Height>
-	<SplitterV4>406</SplitterV4>
+	<SplitterV4>663</SplitterV4>
 	<TToggleControlAction.TogglePreviewPaneAction.Left>3</TToggleControlAction.TogglePreviewPaneAction.Left>
 	<TToggleControlAction.ChartForUsersAction.Visible>True</TToggleControlAction.ChartForUsersAction.Visible>
 	<TToggleControlAction.ChartForUsersAction.Top>740</TToggleControlAction.ChartForUsersAction.Top>

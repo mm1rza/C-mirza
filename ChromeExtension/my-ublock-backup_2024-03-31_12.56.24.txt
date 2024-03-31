@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1711715601772,
+  "timeStamp": 1711864584041,
   "version": "1.56.0",
   "userSettings": {
     "firewallPaneMinimized": false,
@@ -31,6 +31,7 @@
     "9gag.com",
     "about-scheme",
     "account.microsoft.com",
+    "account.ui.com",
     "account.xiaomi.com",
     "ad4msan.com",
     "ad4msan.win",
@@ -83,6 +84,7 @@
     "instagram.com",
     "intercelestial.com",
     "inviglory.com",
+    "ispdesign.ui.com",
     "kurs.dollar.web.id",
     "labkom.co.id",
     "laksa19.github.io",
