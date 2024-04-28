@@ -6,6 +6,10 @@
 103.97.141.226 idfl.me www.idfl.me m.idfl.me
 103.97.141.226 idfl.info www.idfl.info m.idfl.info
 
+# [Remote Desktop Manager Enterprise]
+127.0.0.1 crm.devolutions.net
+127.0.0.1 cloud.devolutions.net
+
 # [IDM]
 127.0.0.1 tonec.com
 127.0.0.1 www.tonec.com
