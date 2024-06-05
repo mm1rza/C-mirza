@@ -5762,7 +5762,7 @@
 		</Item>
 		<Item>
 			<Path>C:\</Path>
-			<TimeStamp>45380.4222836458</TimeStamp>
+			<TimeStamp>45447.2391983912</TimeStamp>
 		</Item>
 		<Item>
 			<Path>H:\</Path>
@@ -5969,7 +5969,7 @@
 	<SplitterV4>663</SplitterV4>
 	<TToggleControlAction.TogglePreviewPaneAction.Left>3</TToggleControlAction.TogglePreviewPaneAction.Left>
 	<TToggleControlAction.ChartForUsersAction.Visible>True</TToggleControlAction.ChartForUsersAction.Visible>
-	<TToggleControlAction.ChartForUsersAction.Top>740</TToggleControlAction.ChartForUsersAction.Top>
+	<TToggleControlAction.ChartForUsersAction.Top>748</TToggleControlAction.ChartForUsersAction.Top>
 	<TToggleControlAction.ChartForExtensionsAction.Visible>True</TToggleControlAction.ChartForExtensionsAction.Visible>
 	<NavigationPanel.Width>300</NavigationPanel.Width>
 	<TToggleControlAction.ChartForExtensionsAction.Left>0</TToggleControlAction.ChartForExtensionsAction.Left>
@@ -6012,7 +6012,7 @@
 	<TToggleControlAction.TogglePreviewPaneAction.Width>179</TToggleControlAction.TogglePreviewPaneAction.Width>
 	<TreemapLegend>True</TreemapLegend>
 	<TToggleControlAction.TogglePreviewPaneAction.Top>3</TToggleControlAction.TogglePreviewPaneAction.Top>
-	<TToggleControlAction.ChartForExtensionsAction.Top>741</TToggleControlAction.ChartForExtensionsAction.Top>
+	<TToggleControlAction.ChartForExtensionsAction.Top>749</TToggleControlAction.ChartForExtensionsAction.Top>
 	<PreviewPanel.Width>185</PreviewPanel.Width>
 	<AddNewScanDialogWindowPlacement.length>44</AddNewScanDialogWindowPlacement.length>
 	<AddNewScanDialogWindowPlacement.flags>0</AddNewScanDialogWindowPlacement.flags>
