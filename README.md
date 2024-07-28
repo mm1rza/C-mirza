@@ -1,0 +1,1 @@
+taruh di C:/ ya
