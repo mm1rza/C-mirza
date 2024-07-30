@@ -1,1 +1,1 @@
-taruh di C:/ ya
+taruh di C:/#mirza ya
