@@ -8,20 +8,22 @@
 	6. matikan windows update
 
 @@@@@@@@@@ 			SECOND			@@@@@@@@@@
-	word setting ganti  centimeter
-	walpeper desktop ganti
-	isi picture ( branding kampus )
+	1. word setting ganti advance>centimeter, protectedview>uncheck 3 item
+	2. walpeper desktop ganti
+	3. isi picture ( branding kampus )
+	4. folder download pindah ke D:\Downlaods ( attrib +s +h "D:\Downloads" )
+	5. hosts di update
 
 @@@@@ 	SHADOW DEFENDER WHITELIST 	@@@@@
 	~~FOLDER
 		C:\Users\USER\AppData\Roaming\Microsoft\Excel\
-		C:\Users\USER\AppData\Roaming\Microsoft\Word\
 		C:\Users\USER\AppData\Roaming\Microsoft\PowerPoint\
+		C:\Users\USER\AppData\Roaming\Microsoft\Word\
+
+		D:\Downloads
 
 		C:\Users\USER\Documents
-		C:\Users\USER\Downloads
-
-		C:\#temp
+		C:\#mirza\#wajib
 
 	~~FILE
 		C:\Windows\System32\drivers\etc		*FILE : hosts
