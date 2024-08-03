@@ -1,3 +1,4 @@
+#### FOLDER
 C:\Users\USER\AppData\Roaming\Microsoft\Excel\
 C:\Users\USER\AppData\Roaming\Microsoft\Word\
 C:\Users\USER\AppData\Roaming\Microsoft\PowerPoint\
@@ -6,3 +7,6 @@ C:\Users\USER\Documents
 C:\Users\USER\Downloads
 
 C:\#temp
+
+#### FILE
+C:\Windows\System32\drivers\etc		*FILE : hosts
