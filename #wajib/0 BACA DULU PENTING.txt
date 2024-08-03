@@ -1,10 +1,19 @@
-@@@@@@@@@@ 			WORD		@@@@@@@@@@
+@@@@@@@@@@ 			FIRST			@@@@@@@@@@
+	0. pastikan shadow defender MATI
+	1. aktivasi windows dan office
+	2. ganti refresh rate monitor
+	3. ganti username PC (OPTIONAL)
+	4. ganti hostname PC
+	5. aktivasi accurate ( keygen )
+	6. matikan windows update
+
+@@@@@@@@@@ 			SECOND			@@@@@@@@@@
 	word setting ganti  centimeter
+	walpeper desktop ganti
+	isi picture ( branding kampus )
 
-
-
-@@@@@@@@@@ 	SHADOW DEFENDER 	@@@@@@@@@@
-	#### FOLDER
+@@@@@ 	SHADOW DEFENDER WHITELIST 	@@@@@
+	~~FOLDER
 		C:\Users\USER\AppData\Roaming\Microsoft\Excel\
 		C:\Users\USER\AppData\Roaming\Microsoft\Word\
 		C:\Users\USER\AppData\Roaming\Microsoft\PowerPoint\
@@ -14,5 +23,5 @@
 
 		C:\#temp
 
-	#### FILE
+	~~FILE
 		C:\Windows\System32\drivers\etc		*FILE : hosts
