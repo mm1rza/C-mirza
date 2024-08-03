@@ -13,6 +13,7 @@
 	3. isi picture ( branding kampus )
 	4. folder download pindah ke D:\Downlaods ( attrib +s +h "D:\Downloads" )
 	5. hosts di update
+	6. semua browser > site setting > notification DISABLE
 
 @@@@@ 	SHADOW DEFENDER WHITELIST 	@@@@@
 	~~FOLDER
