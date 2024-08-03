@@ -1,1 +1,1 @@
-start https://landing.akubisa.ac.id/
+start https://mnet.my.id/landing/
