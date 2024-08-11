@@ -5762,7 +5762,7 @@
 		</Item>
 		<Item>
 			<Path>C:\</Path>
-			<TimeStamp>45447.2391983912</TimeStamp>
+			<TimeStamp>45516.2491928704</TimeStamp>
 		</Item>
 		<Item>
 			<Path>H:\</Path>
@@ -6031,4 +6031,5 @@
 		<Right>704</Right>
 		<Bottom>773</Bottom>
 	</AddNewScanDialogWindowPlacement.rcNormalPosition>
+	<ScanHistoryFile>C:\#mirza\APPPortable\TreeSize Portable\scanhistory.xml</ScanHistoryFile>
 </GlobalOptions>

@@ -1,0 +1,318 @@
+{
+  "__VERSION__": "180",
+  "Main": {
+    "Controls": [
+      {
+        "Enable": false,
+        "ForceApply": true,
+        "Identifier": "/lpc/nct6779d/control/3",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #4",
+        "NickName": "CPU BELAKANG",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6779d/fan/3",
+          "IsHidden": false,
+          "Name": "Fan #4",
+          "NickName": "Fan #4"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumTemperature": 110,
+          "MinimumTemperature": 30,
+          "Name": "CPU",
+          "OneWayHysteresis": false,
+          "Points": [
+            "41,29",
+            "45,59",
+            "55,67",
+            "60,80",
+            "73,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/amdcpu/0/temperature/2",
+            "IsHidden": false,
+            "Name": "Core (Tctl/Tdie)",
+            "NickName": "Core (Tctl/Tdie)"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": true,
+        "ForceApply": true,
+        "Identifier": "/lpc/nct6779d/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #2",
+        "NickName": "CPU DEPAN",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6779d/fan/1",
+          "IsHidden": false,
+          "Name": "Fan #2",
+          "NickName": "Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 14.0,
+        "SelectedFanCurve": {
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumTemperature": 110,
+          "MinimumTemperature": 30,
+          "Name": "CPU",
+          "OneWayHysteresis": false,
+          "Points": [
+            "41,29",
+            "45,59",
+            "55,67",
+            "60,80",
+            "73,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/amdcpu/0/temperature/2",
+            "IsHidden": false,
+            "Name": "Core (Tctl/Tdie)",
+            "NickName": "Core (Tctl/Tdie)"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": true,
+        "ForceApply": true,
+        "Identifier": "NVApiWrapper/0-GP104-A/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 56,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce GTX 1070",
+        "NickName": "Control 1 - NVIDIA GeForce GTX 1070",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
+          "IsHidden": false,
+          "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
+          "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "GPU",
+          "OneWayHysteresis": false,
+          "Points": [
+            "30.2,0",
+            "49,12.7",
+            "60.9,51.6",
+            "73,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "NVApiWrapper/0-GP104-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 24,
+        "SelectedStop": 18
+      },
+      {
+        "Enable": false,
+        "ForceApply": true,
+        "Identifier": "/lpc/nct6779d/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "Fan #1",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6779d/fan/0",
+          "IsHidden": false,
+          "Name": "Fan #1",
+          "NickName": "Fan #1"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 57,
+        "SelectedStop": 33
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6779d/control/2",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #3",
+        "NickName": "Fan #3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6779d/control/4",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #5",
+        "NickName": "Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumTemperature": 110,
+        "MinimumTemperature": 30,
+        "Name": "CPU",
+        "OneWayHysteresis": false,
+        "Points": [
+          "41,29",
+          "45,59",
+          "55,67",
+          "60,80",
+          "73,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      },
+      {
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "Name": "GPU",
+        "OneWayHysteresis": false,
+        "Points": [
+          "30.2,0",
+          "49,12.7",
+          "60.9,51.6",
+          "73,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "NVApiWrapper/0-GP104-A/sensor/0",
+          "IsHidden": false,
+          "Name": "GPU",
+          "NickName": "GPU"
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6779d/fan/0",
+        "IsHidden": false,
+        "Name": "Fan #1",
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6779d/fan/1",
+        "IsHidden": false,
+        "Name": "Fan #2",
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6779d/fan/2",
+        "IsHidden": false,
+        "Name": "Fan #3",
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6779d/fan/3",
+        "IsHidden": false,
+        "Name": "Fan #4",
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6779d/fan/4",
+        "IsHidden": false,
+        "Name": "Fan #5",
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
+        "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
+      }
+    ],
+    "HideFanSpeedCards": false,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF04A4F1",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "Inherit",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": "#FFFFFFFF",
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 20
+  }
+}

@@ -1,9 +1,9 @@
 @@@@@@@@@@ 			FIRST			@@@@@@@@@@
 	0. pastikan shadow defender MATI
-	1. aktivasi windows dan office
-	2. ganti refresh rate monitor
-	3. ganti username PC (OPTIONAL)
-	4. ganti hostname PC
+	1. ganti refresh rate monitor
+	2. ganti username PC (OPTIONAL)
+	3. ganti hostname PC
+	4. aktivasi windows dan office
 	5. aktivasi accurate ( keygen )
 	6. matikan windows update
 

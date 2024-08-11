@@ -145,6 +145,19 @@
             Sets the default fan speed.
             </summary>
         </member>
+        <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetAdlSensor(LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData,LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogDataOutput,LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogSensors,LibreHardwareMonitor.Hardware.Sensor,System.Single,System.Boolean)">
+             <summary>
+             Gets a sensor value.
+             </summary>
+            
+             <param name="adlPMLogData">Current pmlog struct, used with pmlog-support/start.</param>
+             <param name="od8Log">Legacy pmlogdataoutput struct, used with ADL2_New_QueryPMLogData_Get.</param>
+             <param name="sensorType">Type of the sensor.</param>
+             <param name="sensor">The sensor.</param>
+             <param name="factor">The factor.</param>
+             <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
+             <returns>true if sensor is supported, false otherwise</returns>
+        </member>
         <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetODNTemperature(LibreHardwareMonitor.Interop.AtiAdlxx.ADLODNTemperatureType,LibreHardwareMonitor.Hardware.Sensor,System.Double,System.Double,System.Boolean)">
             <summary>
             Gets the OverdriveN temperature.
@@ -153,16 +166,6 @@
             <param name="sensor">The sensor.</param>
             <param name="minTemperature">The minimum temperature.</param>
             <param name="scale">The scale.</param>
-            <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
-        </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetPMLog(LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogDataOutput,LibreHardwareMonitor.Interop.AtiAdlxx.ADLSensorType,LibreHardwareMonitor.Hardware.Sensor,System.Single,System.Boolean)">
-            <summary>
-            Gets a PMLog sensor value.
-            </summary>
-            <param name="data">The data.</param>
-            <param name="sensorType">Type of the sensor.</param>
-            <param name="sensor">The sensor.</param>
-            <param name="factor">The factor.</param>
             <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
         </member>
         <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetOD6Power(LibreHardwareMonitor.Interop.AtiAdlxx.ADLODNCurrentPowerType,LibreHardwareMonitor.Hardware.Sensor)">
@@ -784,6 +787,9 @@
         <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempTSensor">
             <summary>"T_Sensor" temperature sensor reading [℃]</summary>
         </member>
+        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempTSensor2">
+            <summary>"T_Sensor 2" temperature sensor reading [℃]</summary>
+        </member>
         <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempVrm">
             <summary>VRM temperature [℃]</summary>
         </member>
@@ -827,7 +833,7 @@
             different for each motherboard model.
             </remarks>
         </member>
-        <member name="T:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController">
+        <member name="T:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController">
             <summary>
             This is a controller present on some Gigabyte motherboards for both Intel and AMD, that is in custom firmware
             loaded onto the 2nd ITE EC.
@@ -835,19 +841,19 @@
             This class can disable it so that the regular IT87XX code can drive the fans.
             </summary>
         </member>
-        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController._controllerBaseAddress">
+        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController._controllerBaseAddress">
             <summary>
             Base address in PCI RAM that maps to the EC's RAM
             </summary>
         </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController.Enable(System.Boolean)">
+        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController.Enable(System.Boolean)">
             <summary>
             Enable/Disable Fan Control
             </summary>
             <param name="enabled"></param>
             <returns>true on success</returns>
         </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController.Restore">
+        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController.Restore">
             <summary>
             Restore settings back to initial values
             </summary>
@@ -1450,7 +1456,9 @@
         </member>
         <member name="P:LibreHardwareMonitor.Hardware.MemoryDevice.Size">
             <summary>
-            Gets the size of the memory device. If the value is 0, no memory device is installed in the socket.
+            Gets the size of the memory device.
+            If the value is 0, no memory device is installed in the socket.
+            If the value is 0xFFFF, the size is unknown.
             </summary>
         </member>
         <member name="P:LibreHardwareMonitor.Hardware.MemoryDevice.Speed">
@@ -1747,6 +1755,63 @@
             <summary>
             There's no Linux XDisplay in Linux Console environment.
             </summary>
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogSupportInfo.usSensors">
+            list of sensors defined by ADL_PMLOG_SENSORS
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogSupportInfo.iReserved">
+            Reserved
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogStartInput.usSensors">
+            list of sensors defined by ADL_PMLOG_SENSORS
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogStartInput.ulSampleRate">
+            Sample rate in milliseconds
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogStartInput.iReserved">
+            Reserved
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogStartOutput.pLoggingAddress">
+            Pointer to memory address containing logging data
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData.ulVersion">
+            Structure version
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData.ulActiveSampleRate">
+            Current driver sample rate
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData.ulLastUpdated">
+            Timestamp of last update
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData.ulReserved">
+            Reserved
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemorySize">
+            Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.strMemoryType">
+            Memory type in string.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBandwidth">
+            Highest default performance level Memory bandwidth in Mbytes/s
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iHyperMemorySize">
+            HyperMemory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iInvisibleMemorySize">
+            Invisible Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iVisibleMemorySize">
+            Visible Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iVramVendorRevId">
+            Vram vendor ID
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBandwidthX2">
+            Memory Bandiwidth that is calculated and finalized on the driver side, grab and go.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBitRateX2">
+            Memory Bit Rate that is calculated and finalized on the driver side, grab and go.
         </member>
         <member name="F:LibreHardwareMonitor.Interop.Kernel32.NVME_CRITICAL_WARNING.AvailableSpaceLow">
             <summary>

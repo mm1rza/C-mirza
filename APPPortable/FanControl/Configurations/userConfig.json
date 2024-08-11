@@ -1,9 +1,43 @@
 {
-  "__VERSION__": "180",
+  "__VERSION__": "198",
   "Main": {
     "Controls": [
       {
-        "Enable": false,
+        "Calibration": [
+          [
+            30,
+            893
+          ],
+          [
+            40,
+            953
+          ],
+          [
+            50,
+            1136
+          ],
+          [
+            60,
+            1286
+          ],
+          [
+            70,
+            1420
+          ],
+          [
+            80,
+            1562
+          ],
+          [
+            90,
+            1665
+          ],
+          [
+            100,
+            1920
+          ]
+        ],
+        "Enable": true,
         "ForceApply": true,
         "Identifier": "/lpc/nct6779d/control/3",
         "IsHidden": false,
@@ -21,10 +55,12 @@
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
-          "MaximumTemperature": 110,
-          "MinimumTemperature": 30,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 110.0,
+          "MinimumTemperature": 30.0,
           "Name": "CPU",
           "OneWayHysteresis": false,
           "Points": [
@@ -48,6 +84,44 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [
+          [
+            20,
+            864
+          ],
+          [
+            30,
+            866
+          ],
+          [
+            40,
+            919
+          ],
+          [
+            50,
+            1084
+          ],
+          [
+            60,
+            1244
+          ],
+          [
+            70,
+            1380
+          ],
+          [
+            80,
+            1519
+          ],
+          [
+            90,
+            1634
+          ],
+          [
+            100,
+            1842
+          ]
+        ],
         "Enable": true,
         "ForceApply": true,
         "Identifier": "/lpc/nct6779d/control/1",
@@ -66,10 +140,12 @@
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 14.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
-          "MaximumTemperature": 110,
-          "MinimumTemperature": 30,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 110.0,
+          "MinimumTemperature": 30.0,
           "Name": "CPU",
           "OneWayHysteresis": false,
           "Points": [
@@ -93,12 +169,54 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [
+          [
+            10,
+            0
+          ],
+          [
+            20,
+            712
+          ],
+          [
+            30,
+            1064
+          ],
+          [
+            40,
+            1419
+          ],
+          [
+            50,
+            1776
+          ],
+          [
+            60,
+            2138
+          ],
+          [
+            70,
+            2491
+          ],
+          [
+            80,
+            2847
+          ],
+          [
+            90,
+            3202
+          ],
+          [
+            100,
+            3547
+          ]
+        ],
         "Enable": true,
         "ForceApply": true,
         "Identifier": "NVApiWrapper/0-GP104-A/control/0",
         "IsHidden": false,
         "ManualControl": false,
-        "ManualControlValue": 56,
+        "ManualControlValue": 48,
         "MinimumPercent": 0,
         "Name": "Control 1 - NVIDIA GeForce GTX 1070",
         "NickName": "Control 1 - NVIDIA GeForce GTX 1070",
@@ -111,10 +229,12 @@
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
           "Name": "GPU",
           "OneWayHysteresis": false,
           "Points": [
@@ -133,14 +253,20 @@
           }
         },
         "SelectedOffset": 0,
-        "SelectedStart": 24,
-        "SelectedStop": 18
+        "SelectedStart": 28,
+        "SelectedStop": 16
       },
       {
+        "Calibration": [
+          [
+            100,
+            0
+          ]
+        ],
         "Enable": false,
         "ForceApply": true,
         "Identifier": "/lpc/nct6779d/control/0",
-        "IsHidden": false,
+        "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 100,
         "MinimumPercent": 0,
@@ -157,9 +283,10 @@
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "SelectedStart": 57,
-        "SelectedStop": 33
+        "SelectedStop": 0
       },
       {
+        "Calibration": [],
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6779d/control/2",
@@ -178,6 +305,7 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [],
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6779d/control/4",
@@ -197,12 +325,15 @@
       }
     ],
     "CustomSensors": [],
+    "Fahrenheit": false,
     "FanCurves": [
       {
+        "CommandMode": 0,
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
-        "MaximumTemperature": 110,
-        "MinimumTemperature": 30,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 110.0,
+        "MinimumTemperature": 30.0,
         "Name": "CPU",
         "OneWayHysteresis": false,
         "Points": [
@@ -222,10 +353,12 @@
         }
       },
       {
+        "CommandMode": 0,
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
-        "MaximumTemperature": 120,
-        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
         "Name": "GPU",
         "OneWayHysteresis": false,
         "Points": [
@@ -246,10 +379,10 @@
     ],
     "FanSensors": [
       {
-        "Identifier": "/lpc/nct6779d/fan/0",
+        "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
         "IsHidden": false,
-        "Name": "Fan #1",
-        "NickName": "Fan #1"
+        "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
+        "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
       },
       {
         "Identifier": "/lpc/nct6779d/fan/1",
@@ -258,43 +391,47 @@
         "NickName": "Fan #2"
       },
       {
-        "Identifier": "/lpc/nct6779d/fan/2",
-        "IsHidden": false,
-        "Name": "Fan #3",
-        "NickName": "Fan #3"
-      },
-      {
         "Identifier": "/lpc/nct6779d/fan/3",
         "IsHidden": false,
         "Name": "Fan #4",
         "NickName": "Fan #4"
       },
       {
+        "Identifier": "/lpc/nct6779d/fan/0",
+        "IsHidden": false,
+        "Name": "Fan #1",
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6779d/fan/2",
+        "IsHidden": false,
+        "Name": "Fan #3",
+        "NickName": "Fan #3"
+      },
+      {
         "Identifier": "/lpc/nct6779d/fan/4",
         "IsHidden": false,
         "Name": "Fan #5",
         "NickName": "Fan #5"
-      },
-      {
-        "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
-        "IsHidden": false,
-        "Name": "Fan 1 - NVIDIA GeForce GTX 1070",
-        "NickName": "Control 1 - NVIDIA GeForce GTX 1070"
       }
     ],
+    "HideCalibration": false,
     "HideFanSpeedCards": false,
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF04A4F1",
     "SecondaryColor": "#FFAEEA00",
-    "SelectedTheme": "Inherit",
+    "SelectedTheme": "",
     "ShowHiddenCards": false,
     "SyncThemeWithWindows": true,
     "SyncTrayIconColorWithWindows": true,
     "TemperatureSensors": [],
-    "TrayIconColor": "#FFFFFFFF",
+    "TrayIconColor": null,
     "TrayIcons": []
   },
   "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
     "DisabledPlugins": [],
     "DisableStorageSensors": true,
     "LibreHardwareMonitorSettings": {

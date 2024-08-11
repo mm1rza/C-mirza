@@ -99,3 +99,9 @@
 21-Apr-24 7:46:23 PM: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+12-Aug-24 5:19:53 AM: Update - NvAPIWrapper.Native.Exceptions.NVIDIAApiException: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+   at NvAPIWrapper.Native.GPUApi.GetThermalSettings(PhysicalGPUHandle physicalGPUHandle, ThermalSettingsTarget sensorTarget)
+   at NvAPIWrapper.GPU.GPUThermalInformation.get_ThermalSensors()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiTempSensor.Update()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiWrapperBackendProvider.Update()
+12-Aug-24 5:19:53 AM: NvAPI failed. A complete refresh is required.
