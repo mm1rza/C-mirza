@@ -66,9 +66,9 @@
 		<Y>-1</Y>
 	</MainFormWindowPlacement.ptMaxPosition>
 	<MainFormWindowPlacement.rcNormalPosition>
-		<Left>78</Left>
+		<Left>79</Left>
 		<Top>0</Top>
-		<Right>1312</Right>
+		<Right>1313</Right>
 		<Bottom>724</Bottom>
 	</MainFormWindowPlacement.rcNormalPosition>
 	<FinalExpandSize>52428800</FinalExpandSize>
@@ -5770,7 +5770,7 @@
 		</Item>
 		<Item>
 			<Path>G:\</Path>
-			<TimeStamp>45262.8267172454</TimeStamp>
+			<TimeStamp>45518.9168526736</TimeStamp>
 		</Item>
 		<Item>
 			<Path>F:\</Path>

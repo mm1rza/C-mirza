@@ -2,7 +2,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5]
 "Language"="english.lng"
-"Current View"=dword:00000000
+"Current View"=dword:00000002
 "ATCPageIndex"=dword:00000000
 "ATPageIndex"=dword:00000001
 "AutoRepair"=dword:00000000
@@ -11,8 +11,11 @@ REGEDIT4
 "Lastbackground"=".\\skins\\default\\backimages\\bg8.jpg"
 "CurSkin"="C:\\#mirza\\APPPortable\\GlaryUtilities\\App\\ProgramFiles\\skins\\default\\skin.ini"
 "Transparen"=dword:0000001a
-"BootTime"="34832"
-"Update"=dword:65a09a7c
+"BootTime"="23009"
+"Update"=dword:66bb2aee
+"MainWnd_Left"=dword:00000198
+"MainWnd_Top"=dword:000000b3
+"AutoUpdateInstall"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Advanced Tools]
 "ADT_SC_STARTUPI"=dword:00000000
@@ -26,6 +29,60 @@ REGEDIT4
 "ADT_ST_BROWSERS"=dword:00000008
 "ADT_PRIVACY_ERASEH"=dword:00000009
 
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\cmm]
+"WndLeft"=dword:000002e4
+"WndTop"=dword:0000010c
+"WndWidth"=dword:000001b8
+"WndHeight"=dword:000001f9
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\DupeFinder]
+"IgnoreFile"=dword:00000000
+"IgnoreSize"=dword:00000000
+"SameFileName"=dword:00000001
+"SameSize"=dword:00000000
+"SameTime"=dword:00000000
+"SameFileContent"=dword:00000001
+"ScanAll"=dword:00000001
+"rbDrives"=dword:00000000
+"WndLeft"=dword:000000dc
+"WndTop"=dword:000000d2
+"WndWidth"=dword:00000340
+"WndHeight"=dword:00000228
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\DupeFinder\FileExts]
+"*.txt"=dword:00000001
+"*.ios"=dword:00000001
+"*.rar"=dword:00000001
+"*.zip"=dword:00000001
+"*.mp3"=dword:00000001
+"*.wav"=dword:00000001
+"*.avi"=dword:00000001
+"*.bmp"=dword:00000001
+"*.png"=dword:00000001
+"*.jpg"=dword:00000001
+"*.doc"=dword:00000001
+"*.xls"=dword:00000001
+"*.chm"=dword:00000001
+"*.pdf"=dword:00000001
+"*.7z"=dword:00000001
+"*.z"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\DupeFinder\IngelligentFilter]
+"Flags"=dword:00000001
+"MaxFileSize"=dword:0000ffff
+"MinFileSize"=dword:00000000
+"EndMTime"="45518.863403"
+"StartMTime"="0.000000"
+"EndCTime"="45518.863403"
+"StartCTime"="0.000000"
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\DupeFinder\ScanDrives]
+"C:\\"=dword:00000001
+"E:\\"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\DupeFinder\ScanFolders]
+"E:\\hp ayu drive"=dword:00000001
+
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\OneClick]
 "DeepClean"=dword:00000000
 
@@ -37,6 +94,17 @@ REGEDIT4
 "OC_ERASEPT"=dword:00000000
 "OC_REMOVETF"=dword:00000001
 "OC_OPTIMIZESA"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\QuickSearch]
+"Details Bar"="1"
+"CloseToTray"="0"
+"StarupLoad"="0"
+"MonitorChange"="1"
+"BWindowsSizeWidth"=dword:000002f8
+"BWindowsSizeHeight"=dword:00000230
+"SearchWndMode"=dword:00000001
+"SearchHistory"="1"
+"DelayLoadDisk"="1"
 
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\Settings]
 "AutoLoad"=dword:00000000
@@ -67,3 +135,87 @@ REGEDIT4
 "EraseTracks"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\SoftwareUpdate]
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\startup]
+
+[HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\startup\WndStatus]
+"Main_MAX"=dword:00000000
+"Main_Left"=dword:00000204
+"Main_Right"=dword:0000057c
+"Main_TOP"=dword:000000dc
+"Main_Bottom"=dword:00000334
+"Tab_Index"=dword:00000004
+"List_Width_0"=dword:00000104
+"List_Width_1"=dword:00000064
+"List_Width_2"=dword:00000064
+"List_Width_3"=dword:00000064
+"List_Sys_Sort"=dword:00000000
+"List_Sys_Des"=dword:00000000
+"List_Scheduled_Sort"=dword:00000000
+"List_Scheduled_Des"=dword:00000000
+"List_Plus_Sort"=dword:00000000
+"List_Plus_Des"=dword:00000000
+"List_Ser_App_Sort"=dword:00000000
+"List_Ser_App_Des"=dword:00000000
+"List_Ser_Sys_Sort"=dword:00000000
+"List_Ser_Sys_Des"=dword:00000000
+"Detail_Open"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag]
+"DiskChecked"=dword:00000010
+"DiskCheckMask"=dword:0000003c
+"DefragFinish"=dword:00008022
+"MinAndMax"=dword:00000000
+"Rect_Left"=dword:000003b1
+"Rect_Right"=dword:000006c6
+"Rect_Top"=dword:00000162
+"Rect_Bottom"=dword:000003ae
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\AutoDefragmention]
+"CheckDefragCPUIdle"=dword:00000000
+"CPUIdleTime"=dword:00000001
+"CheckPauseCPUUsage"=dword:00000001
+"CPUUsageExceed"=dword:00000001
+"LastDefragmention"="--"
+"DefragmentedFiles"="0"
+"AutoDefragDrivers"=""
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\RunShedule]
+"SheduleAction"=dword:00000000
+"Frequency"=dword:00000000
+"WeekDay"=dword:00000000
+"DayHour"=dword:00000000
+"SheuldeDrivers"=""
+"CheckRunSchedule"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\Setting Option]
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\Setting Option\Defrag]
+"chbFileFragementAmount"=dword:00000001
+"cbbFileFragementAmount"=dword:00000002
+"chbFrageMentsSmaller"=dword:00000001
+"cbbFrageMentsSmaller"=dword:00000050
+"chbFileLarger"=dword:00000001
+"cbbFileLarger"=dword:00000000
+"chbFileSmaller"=dword:00000001
+"cbbFileSmaller"=dword:0000012c
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\Setting Option\Gereral]
+"chbStopDefragInBattery"=dword:00000001
+"chbMultithreading"=dword:00000000
+"chbStartAutomaticallyOnLogon"=dword:00000000
+"MinimizeToTray"=dword:00000000
+"ShowBalloon"=dword:00000000
+"chbStopVssDefragNTFS"=dword:00000000
+"DefragFinishRingtone"=""
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\Setting Option\Gereral\DefragColor]
+"ColorIndex"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\GlarySoft\DiskDefrag\Setting Option\Optimize]
+"chbMoveLargeFiles"=dword:00000001
+"chbMimiFileSize"=dword:00000001
+"cbbFileSize"=dword:00000032
+"chbNotAccesInLast"=dword:00000001
+"chbFileInRecyle"=dword:00000001
+"chbFileInSelected"=dword:00000001
