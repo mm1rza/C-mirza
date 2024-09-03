@@ -30,6 +30,42 @@ else {
     Remove-Item $zipFilePath
 
     Write-Output "Download and extraction complete."
-	exit
-	exit
+
+# Tentukan jalur sumber dan tujuan
+$sumber = "C:\#mirza\C-mirza-main"
+$tujuan = "C:\#mirza"
+
+# Cek apakah folder tujuan ada, jika tidak, buat folder tersebut
+if (-not (Test-Path -Path $tujuan)) {
+    Write-Host "Folder tujuan tidak ada. Membuat folder tujuan..."
+    New-Item -Path $tujuan -ItemType Directory
+} else {
+    Write-Host "Folder tujuan sudah ada."
+}
+
+# Pindahkan semua file dan folder dari sumber ke tujuan
+Write-Host "Memindahkan file dan folder dari $sumber ke $tujuan..."
+Get-ChildItem -Path $sumber -Recurse | ForEach-Object {
+    $targetPath = Join-Path -Path $tujuan -ChildPath $_.FullName.Substring($sumber.Length)
+    if ($_.PSIsContainer) {
+        # Buat folder di tujuan jika belum ada
+        if (-not (Test-Path -Path $targetPath)) {
+            Write-Host "Membuat folder: $targetPath"
+            New-Item -Path $targetPath -ItemType Directory
+        }
+    } else {
+        # Pindahkan file
+        Write-Host "Memindahkan file: $_.FullName ke $targetPath"
+        Move-Item -Path $_.FullName -Destination $targetPath -Force
+    }
+}
+
+# Hapus folder sumber setelah pemindahan selesai
+Write-Host "Menghapus folder sumber..."
+Remove-Item -Path $sumber -Recurse -Force
+
+
+exit
+exit
+
 }
