@@ -1,5 +1,5 @@
 # Define URL and local path
-$downloadUrl = "https://github.com/mm1rza/C-mirza/releases/download/release/update.zip"
+$downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
 $localPath = "C:\#mirza"
 $zipFilePath = "$localPath\C-mirza.zip"
 
