@@ -1,18 +1,18 @@
 # Define URL and local path
 $downloadUrl = "https://github.com/mm1rza/C-mirza/releases/download/release/update.zip"
 $localPath = "C:\#mirza"
-$zipFilePath = "C:\#mirza\C-mirza.zip"
+$zipFilePath = "$localPath\C-mirza.zip"
 
 # Create local directory if it doesn't exist
 if (-Not (Test-Path $localPath)) {
-    New-Item -ItemType Directory -Path $localPath
+    New-Item -ItemType Directory -Path $localPath -Force
 }
 
 # Download the zip file
 Write-Output "Downloading file from $downloadUrl..."
 Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFilePath
 
-# Extract the zip file
+# Extract the zip file, replacing any existing files
 Write-Output "Extracting file to $localPath..."
 Expand-Archive -Path $zipFilePath -DestinationPath $localPath -Force
 
