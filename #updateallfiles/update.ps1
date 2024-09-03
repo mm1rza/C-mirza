@@ -21,3 +21,5 @@ Write-Output "Cleaning up..."
 Remove-Item $zipFilePath
 
 Write-Output "Download and extraction complete."
+
+exit
