@@ -1,10 +1,10 @@
 # Check if PowerShell is running as administrator
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Host "WARNING: This script is not running with administrator privileges." -ForegroundColor Red -BackgroundColor Black
-    Write-Host "Please run PowerShell as Administrator and try again." -ForegroundColor Red -BackgroundColor Black
+    Write-Host "Please run PowerShell / CMD as Administrator and try again." -ForegroundColor Red -BackgroundColor Black
 	Write-Host "" -ForegroundColor Red
-	Write-Host "Jalankan kan ulang PowerShell" -ForegroundColor Green -BackgroundColor Black
-	Write-Host "Run As ADMINISTRATOR ( PowerShell )" -ForegroundColor Green -BackgroundColor Black
+	Write-Host "Jalankan kan ulang PowerShell / CMD" -ForegroundColor Green -BackgroundColor Black
+	Write-Host "Run As ADMINISTRATOR ( PowerShell / CMD )" -ForegroundColor Green -BackgroundColor Black
 }
 else {
     # Define URL and local path
