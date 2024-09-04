@@ -6,7 +6,6 @@
 #}
 
 # Script utama
-$ProgressPreference = 'SilentlyContinue'
 $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
 $localPath = "C:\#mirza"
 $zipFilePath = "C:\#mirza\C-mirza.zip"
