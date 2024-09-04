@@ -14,7 +14,8 @@ if (-Not (Test-Path $localPath)) {
     New-Item -ItemType Directory -Path $localPath -Force
 }
 Write-Output "Downloading file from $downloadUrl..."
-Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFilePath
+$wc = New-Object net.webclient
+$wc.DownloadFile($downloadUrl, $zipFilePath)
 Write-Output "Extracting file to $localPath..."
 Expand-Archive -Path $zipFilePath -DestinationPath $localPath -Force
 Write-Output "Cleaning up..."
