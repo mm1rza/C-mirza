@@ -1,9 +1,9 @@
 # Cek apakah skrip dijalankan sebagai administrator
-if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-    Write-Host "Membuka ulang PowerShell dengan hak administrator..."
-    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
-    exit
-}
+#if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
+#    Write-Host "Membuka ulang PowerShell dengan hak administrator..."
+#    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+#    exit
+#}
 
 # Script utama
 $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
