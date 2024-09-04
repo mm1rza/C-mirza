@@ -11,7 +11,7 @@ iex (iwr "https://mnet.my.id/update/github/c" -UseBasicParsing)
 
 ### Method 2 - Traditional
 
--   Download the file under the code button from [Download](https://github.com/mm1rza/C-mirza/raw/main/%23updateallfiles/update.bat)
+-   Download the file under the code button from [update.bat](https://github.com/mm1rza/C-mirza/raw/main/%23updateallfiles/update.bat)
 -   Right-click on the downloaded file `update.bat`
 -   Run As Admin
 -   You will see the download.
