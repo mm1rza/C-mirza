@@ -1,11 +1,3 @@
-# Cek apakah skrip dijalankan sebagai administrator
-#if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-#    Write-Host "Membuka ulang PowerShell dengan hak administrator..."
-#    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
-#    exit
-#}
-
-# Script utama
 $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
 $localPath = "C:\#mirza"
 $zipFilePath = "C:\#mirza\C-mirza.zip"
@@ -14,7 +6,7 @@ if (-Not (Test-Path $localPath)) {
     New-Item -ItemType Directory -Path $localPath -Force
 }
 Write-Output "Downloading file from $downloadUrl..."
-Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFilePath
+Start-BitsTransfer -Source $downloadUrl -Destination $zipFilePath
 Write-Output "Extracting file to $localPath..."
 Expand-Archive -Path $zipFilePath -DestinationPath $localPath -Force
 Write-Output "Cleaning up..."
