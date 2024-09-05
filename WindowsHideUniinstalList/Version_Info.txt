@@ -1,0 +1,23 @@
+Author: BlueLife , Velociraptor
+www.sordum.org
+
+[###################]-- Hide From Uninstall List v1.1 --[###################]
+
+(Friday, June 7, 2024)
+------------
+Changelog:
+
+01. [FIXED] – The GUI is too small
+02. [FIXED] – It is not possible to translate the list in the interface
+03. [ADDED] – 64 bit version
+04. [ADDED] – undo changes option
+05. [ADDED] – Option to prevent uninstalling the program
+06. [ADDED] – Option to prevent changing program properties.
+07. [ADDED] – Some additional features such as "open registry keys..."
+08. [ADDED] – Program coding improvements.
+
+[###################]-- Hide From Uninstall List v1.0 --[###################]
+
+(Friday, October 5, 2018)
+
+Çıkış tarihi, programın amacı vs. kısa tanım yazılacak.
