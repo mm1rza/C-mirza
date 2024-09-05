@@ -23,6 +23,12 @@ if ($localVersion -eq $remoteVersion) {
 } else {
     Write-Host "Update Tersedia. Mengupdate files..."
 
+    $folder = "C:\#mirza"
+    if (Test-Path $folder) {
+        Write-Host "Menghapus folder dan subfolder: $folder"
+        Remove-Item $folder -Recurse -Force
+    }
+
     $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
     $localPath = "C:\#mirza"
     $zipFilePath = "C:\#mirza\C-mirza.zip"
