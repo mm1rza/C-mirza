@@ -9,21 +9,20 @@ function Get-RemoteVersion {
 
 if (Test-Path $localVersionFile) {
     $localVersion = Get-Content $localVersionFile -Raw
-    Write-Host "Versi di komputer saat ini: $localVersion"
+    Write-Host "Versi di komputer saat ini : $localVersion"
 } else {
-    Write-Host "Versi di komputer tidak ditemukan."
+    Write-Host "File tidak ditemukan."
     $localVersion = ""
 }
 
 $remoteVersion = Get-RemoteVersion $remoteVersionUrl
-Write-Host "Versi di cloud: $remoteVersion"
+Write-Host "Versi di cloud : $remoteVersion"
 
 if ($localVersion -eq $remoteVersion) {
     Write-Host "Tidak perlu update. Versi saat ini di komputer sudah terbaru."
 } else {
-    Write-Host "Ada update terbaru. Mengupdate files..."
-    
-    # Proceed with your existing download, extraction, and file-moving logic
+    Write-Host "Update Tersedia. Mengupdate files..."
+
     $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
     $localPath = "C:\#mirza"
     $zipFilePath = "C:\#mirza\C-mirza.zip"
@@ -63,7 +62,6 @@ if ($localVersion -eq $remoteVersion) {
     }
     Write-Host "Menghapus folder sumber..."
     Remove-Item -Path $sumber -Recurse -Force
-
 
     $files = @("C:\#mirza\README.md", "C:\#mirza\.gitattributes")
     foreach ($file in $files) {
