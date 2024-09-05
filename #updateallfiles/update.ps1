@@ -1,32 +1,27 @@
-# Variables
 $localVersionFile = "C:\#mirza\#updateallfiles\version.txt"
 $remoteVersionUrl = "https://raw.githubusercontent.com/mm1rza/C-mirza/main/%23updateallfiles/version.txt"
 
-# Function to download remote version file content
 function Get-RemoteVersion {
     param ($url)
     $wc = New-Object net.webclient
     return $wc.DownloadString($url)
 }
 
-# Check if local version file exists
 if (Test-Path $localVersionFile) {
     $localVersion = Get-Content $localVersionFile -Raw
-    Write-Host "Local version: $localVersion"
+    Write-Host "Versi di komputer saat ini: $localVersion"
 } else {
-    Write-Host "Local version file not found."
+    Write-Host "Versi di komputer tidak ditemukan."
     $localVersion = ""
 }
 
-# Get remote version
 $remoteVersion = Get-RemoteVersion $remoteVersionUrl
-Write-Host "Remote version: $remoteVersion"
+Write-Host "Versi di cloud: $remoteVersion"
 
-# Compare versions
 if ($localVersion -eq $remoteVersion) {
-    Write-Host "No update needed. Local version is up-to-date."
+    Write-Host "Tidak perlu update. Versi saat ini di komputer sudah terbaru."
 } else {
-    Write-Host "New version found. Updating..."
+    Write-Host "Ada update terbaru. Mengupdate files..."
     
     # Proceed with your existing download, extraction, and file-moving logic
     $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
@@ -69,5 +64,13 @@ if ($localVersion -eq $remoteVersion) {
     Write-Host "Menghapus folder sumber..."
     Remove-Item -Path $sumber -Recurse -Force
 
+
+    $files = @("C:\#mirza\README.md", "C:\#mirza\.gitattributes")
+    foreach ($file in $files) {
+        if (Test-Path $file) {
+            Write-Host "Menghapus file: $file"
+            Remove-Item $file -Force
+        }
+    }
     Write-Host "Update complete."
 }
