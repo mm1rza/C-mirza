@@ -29,6 +29,8 @@ if ($localVersion -eq $remoteVersion) {
         Remove-Item $folder -Recurse -Force
     }
 
+    Clear-Host
+
     $downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
     $localPath = "C:\#mirza"
     $zipFilePath = "C:\#mirza\C-mirza.zip"
@@ -36,14 +38,14 @@ if ($localVersion -eq $remoteVersion) {
     if (-Not (Test-Path $localPath)) {
         New-Item -ItemType Directory -Path $localPath -Force
     }
-    Write-Output "Downloading file from $downloadUrl..."
+    Write-Output "Download file dari $downloadUrl..."
     $wc = New-Object net.webclient
     $wc.DownloadFile($downloadUrl, $zipFilePath)
-    Write-Output "Extracting file to $localPath..."
+    Write-Output "Extract file ke $localPath..."
     Expand-Archive -Path $zipFilePath -DestinationPath $localPath -Force
-    Write-Output "Cleaning up..."
+    Write-Output "Membersihkan file..."
     Remove-Item $zipFilePath
-    Write-Output "Download and extraction complete."
+    Write-Output "Download and extract selesai."
 
     $sumber = "C:\#mirza\C-mirza-main"
     $tujuan = "C:\#mirza"
@@ -76,5 +78,5 @@ if ($localVersion -eq $remoteVersion) {
             Remove-Item $file -Force
         }
     }
-    Write-Host "Update complete."
+    Write-Host "Update selesai."
 }
