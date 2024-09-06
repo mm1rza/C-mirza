@@ -25,7 +25,6 @@ if ($localVersion -eq $remoteVersion) {
         Write-Host "Memaksa update..."
     } else {
         Write-Host "Tidak ada update dilakukan."
-        #Read-Host "Tekan Enter untuk menutup jendela ini..."
         exit
     }
 } else {
