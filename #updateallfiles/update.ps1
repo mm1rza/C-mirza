@@ -25,14 +25,13 @@ if ($localVersion -eq $remoteVersion) {
         Write-Host "Memaksa update..."
     } else {
         Write-Host "Tidak ada update dilakukan."
-        Read-Host "Tekan Enter untuk menutup jendela ini..."
+        #Read-Host "Tekan Enter untuk menutup jendela ini..."
         exit
     }
 } else {
     Write-Host "Update tersedia."
 }
 
-# Mulai proses update
 Write-Host "Update Tersedia. Mengupdate files..."
 
 $folder = "C:\#mirza"
