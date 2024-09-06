@@ -19,7 +19,7 @@ $remoteVersion = Get-RemoteVersion $remoteVersionUrl
 Write-Host "Versi di cloud : $remoteVersion"
 
 if ($localVersion -eq $remoteVersion) {
-    Write-Host "Versi sudah terbaru."
+    Write-Host "Versi di komputer anda sudah terbaru."
     $response = Read-Host "Apakah Anda ingin memaksa update? (Y/N)"
     if ($response -eq 'Y') {
         Write-Host "Memaksa update..."
