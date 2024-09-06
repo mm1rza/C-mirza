@@ -20,6 +20,7 @@ Write-Host "Versi di cloud : $remoteVersion"
 
 if ($localVersion -eq $remoteVersion) {
     Write-Host "Tidak perlu update. Versi saat ini di komputer sudah terbaru."
+	Read-Host "Tekan Enter untuk menutup jendela ini..."
 } else {
     Write-Host "Update Tersedia. Mengupdate files..."
 
