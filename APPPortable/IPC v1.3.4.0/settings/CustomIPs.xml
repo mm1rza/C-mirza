@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNetworkConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NetworkConfiguration>
+    <IpAddress>192.168.1.2</IpAddress>
+    <SubnetMask>255.255.255.0</SubnetMask>
+    <Gateway>192.168.1.1</Gateway>
+    <PrimaryDns>192.168.1.1</PrimaryDns>
+    <SecondaryDns />
+    <Description>LOKAL</Description>
+  </NetworkConfiguration>
+  <NetworkConfiguration>
+    <IpAddress>192.168.0.2</IpAddress>
+    <SubnetMask>255.255.255.0</SubnetMask>
+    <Gateway>192.168.0.1</Gateway>
+    <PrimaryDns>192.168.0.1</PrimaryDns>
+    <SecondaryDns />
+    <Description>LOKAL</Description>
+  </NetworkConfiguration>
+  <NetworkConfiguration>
+    <IpAddress>103.216.106.242</IpAddress>
+    <SubnetMask>255.255.255.252</SubnetMask>
+    <Gateway>103.216.106.241</Gateway>
+    <PrimaryDns>8.8.8.8</PrimaryDns>
+    <SecondaryDns>8.8.4.4</SecondaryDns>
+    <Description>/30</Description>
+  </NetworkConfiguration>
+  <NetworkConfiguration>
+    <IpAddress>103.216.103.18</IpAddress>
+    <SubnetMask>255.255.255.248</SubnetMask>
+    <Gateway>103.216.103.17</Gateway>
+    <PrimaryDns>8.8.8.8</PrimaryDns>
+    <SecondaryDns>8.8.4.4</SecondaryDns>
+    <Description>/29</Description>
+  </NetworkConfiguration>
+</ArrayOfNetworkConfiguration>
