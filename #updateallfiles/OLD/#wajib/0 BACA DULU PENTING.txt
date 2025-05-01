@@ -1,0 +1,30 @@
+@@@@@@@@@@ 			FIRST			@@@@@@@@@@
+	0. pastikan shadow defender MATI
+	1. ganti refresh rate monitor
+	2. ganti username PC (OPTIONAL)
+	3. ganti hostname PC
+	4. aktivasi windows dan office
+	5. aktivasi accurate ( keygen )
+	6. matikan windows update
+
+@@@@@@@@@@ 			SECOND			@@@@@@@@@@
+	1. word setting ganti advance>centimeter, protectedview>uncheck 3 item
+	2. walpeper desktop ganti
+	3. isi picture ( branding kampus )
+	4. folder download pindah ke D:\Downlaods ( attrib +s +h "D:\Downloads" )
+	5. hosts di update
+	6. semua browser > site setting > notification DISABLE
+
+@@@@@ 	SHADOW DEFENDER WHITELIST 	@@@@@
+	~~FOLDER
+		C:\Users\USER\AppData\Roaming\Microsoft\Excel\
+		C:\Users\USER\AppData\Roaming\Microsoft\PowerPoint\
+		C:\Users\USER\AppData\Roaming\Microsoft\Word\
+
+		D:\Downloads
+
+		C:\Users\USER\Documents
+		C:\#mirza\#wajib
+
+	~~FILE
+		C:\Windows\System32\drivers\etc		*FILE : hosts

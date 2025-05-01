@@ -1,7 +1,0 @@
-1. allow firewall
-	C:\xampp\FileZillaFTP
-	"FileZillaServer.exe"
-	dan
-	80,443 = PORT TCP dan UDP
-
-2. 
