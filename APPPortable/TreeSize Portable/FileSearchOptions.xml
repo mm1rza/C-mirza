@@ -693,7 +693,7 @@
 						<Media Type="TColumnInfoCollection">
 							<Item>
 								<Visible>True</Visible>
-								<Width>280</Width>
+								<Width>915</Width>
 								<Order>1</Order>
 								<Fixed>False</Fixed>
 							</Item>
@@ -1249,8 +1249,8 @@
 					<SortOptions>
 						<cmScreen>
 							<SortDirection>0</SortDirection>
-							<SortColumnGUID>{00000000-0000-0000-0000-000000000000}</SortColumnGUID>
-							<SortColumnID>0</SortColumnID>
+							<SortColumnGUID>{DE632DE0-4253-4BAB-85C4-CA3BE18AA0F6}</SortColumnGUID>
+							<SortColumnID>16</SortColumnID>
 							<SortNoSorting>False</SortNoSorting>
 						</cmScreen>
 						<cmExcel>
@@ -2600,7 +2600,7 @@
 			<Item>
 				<Path>C:\</Path>
 				<Files>0</Files>
-				<Folders>92635</Folders>
+				<Folders>67879</Folders>
 			</Item>
 			<Item>
 				<Path>D:/</Path>
@@ -2803,10 +2803,11 @@
 	</PersistedGlobalExcludeExpressions>
 	<ScanPaths Type="TStringList">
 		<Item>C:\</Item>
-		<Item>D:\</Item>
+		<Item>-D:\</Item>
 		<Item>-E:\</Item>
 		<Item>-F:\</Item>
 		<Item>-G:\</Item>
+		<Item>-Z:\</Item>
 	</ScanPaths>
 	<FollowReparsePoints>False</FollowReparsePoints>
 	<DeduplicateLogOperations>True</DeduplicateLogOperations>
@@ -2820,7 +2821,7 @@
 		<Title></Title>
 		<PersistedExpressionTree Type="TContainerExpression">
 			<Item Type="TStringExpression">
-				<Value>mnt</Value>
+				<Value>.mp4</Value>
 				<Operator>4</Operator>
 				<MetaData>
 					<Column>
@@ -2835,7 +2836,6 @@
 		<TopmostMatchesOnly>False</TopmostMatchesOnly>
 		<ForgetSettings>False</ForgetSettings>
 		<SearchPaths Type="TSerializableList&lt;System.string&gt;">
-			<Item>D:\</Item>
 			<Item>C:\</Item>
 		</SearchPaths>
 	</BasicSearchOptions>
@@ -2865,18 +2865,26 @@
 	<BasicSearchHistory Type="TRecentlyUsedStrings">
 		<Item>
 			<Path>BstSharedFolder</Path>
-			<TimeStamp>45159.7435996991</TimeStamp>
+			<TimeStamp>45804.7055032639</TimeStamp>
 		</Item>
 		<Item>
 			<Path>BstShared</Path>
-			<TimeStamp>45159.7435996991</TimeStamp>
+			<TimeStamp>45804.7055032639</TimeStamp>
 		</Item>
 		<Item>
 			<Path>mnt</Path>
-			<TimeStamp>45159.7435996991</TimeStamp>
+			<TimeStamp>45804.7055032639</TimeStamp>
+		</Item>
+		<Item>
+			<Path>.mp4</Path>
+			<TimeStamp>45804.7055032639</TimeStamp>
+		</Item>
+		<Item>
+			<Path>mp4</Path>
+			<TimeStamp>45804.7055032639</TimeStamp>
 		</Item>
 	</BasicSearchHistory>
-	<BasicSearchLastUsed>mnt</BasicSearchLastUsed>
+	<BasicSearchLastUsed>.mp4</BasicSearchLastUsed>
 	<DuplicatesSearchChecksumMethod>
 		<Column>
 			<fmtid>{DE632DE0-4253-4BAB-85C4-CA3BE18AA0F6}</fmtid>

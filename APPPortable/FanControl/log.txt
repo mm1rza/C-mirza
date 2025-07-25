@@ -109,3 +109,9 @@
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext() in C:\Users\remme\Documents\Github\FanControl\FanControl.App\Domain\UpdaterService.cs:line 192
+7/9/2025 8:12:56 AM: Update - NvAPIWrapper.Native.Exceptions.NVIDIAApiException: NVAPI_NVIDIA_DEVICE_NOT_FOUND
+   at NvAPIWrapper.Native.GPUApi.GetThermalSettings(PhysicalGPUHandle physicalGPUHandle, ThermalSettingsTarget sensorTarget)
+   at NvAPIWrapper.GPU.GPUThermalInformation.get_ThermalSensors()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiTempSensor.Update()
+   at FanControl.Domain.BackendProviders.NVApiWrapper.NVApiWrapperBackendProvider.Update()
+7/9/2025 8:12:56 AM: NvAPI failed. A complete refresh is required.

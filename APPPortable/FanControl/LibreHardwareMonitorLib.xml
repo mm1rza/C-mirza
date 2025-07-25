@@ -65,6 +65,9 @@
         <member name="P:LibreHardwareMonitor.Hardware.Computer.IsStorageEnabled">
             <inheritdoc />
         </member>
+        <member name="P:LibreHardwareMonitor.Hardware.Computer.IsRing0Enabled">
+            <inheritdoc />
+        </member>
         <member name="P:LibreHardwareMonitor.Hardware.Computer.SMBios">
             <summary>
             Contains computer information table read in accordance with <see href="https://www.dmtf.org/standards/smbios">System Management BIOS (SMBIOS) Reference Specification</see>.
@@ -108,8 +111,15 @@
             Support for the NZXT GRID+ V3 devices.
             </summary>
         </member>
+        <member name="T:LibreHardwareMonitor.Hardware.Controller.Nzxt.KrakenV2">
+            <summary>
+            Support for the Kraken X (X42, X52, X62 or X72) devices.
+            </summary>
+        </member>
         <member name="T:LibreHardwareMonitor.Hardware.Controller.Nzxt.KrakenV3">
-            Support for the KrakenZ devices from NZXT
+            <summary>
+            Support for the KrakenZ devices.
+            </summary>
         </member>
         <member name="M:LibreHardwareMonitor.Hardware.Cpu.CpuId.#ctor(System.Int32,System.Int32,LibreHardwareMonitor.Hardware.GroupAffinity)">
             <summary>
@@ -421,6 +431,13 @@
             </summary>
             <returns><see langword="true" /> if a given category of devices is already enabled.</returns>
         </member>
+        <member name="P:LibreHardwareMonitor.Hardware.IComputer.IsRing0Enabled">
+            <summary>
+            Gets or sets a value indicating whether the Ring0 driver should be installed if user privileges is sufficient.
+            </summary>
+            <returns><see langword="true" /> if Ring0 driver installation is enabled</returns>
+            <remarks>Default value is <see langword="true" />. Only affects Windows.</remarks>
+        </member>
         <member name="M:LibreHardwareMonitor.Hardware.IComputer.GetReport">
             <summary>
             Generates full LibreHardwareMonitor report for devices that have been enabled.
@@ -438,6 +455,14 @@
             </summary>
             <param name="identifier">Base identifier being the beginning of the new one.</param>
             <param name="extensions">Additional parts by which the base <see cref="T:LibreHardwareMonitor.Hardware.Identifier" /> will be extended.</param>
+        </member>
+        <member name="M:LibreHardwareMonitor.Hardware.Identifier.#ctor(HidSharp.HidDevice)">
+            <summary>
+            Creates a new identifier instance based on the supplied <see cref="T:HidSharp.HidDevice" />.
+            If available the identifier will consist of the vendor-id, product-id and serial number of the HidDevice.
+            Alternatively a platform dependent identifier based on the usb device-path is generated.
+            </summary>
+            <param name="dev">The <see cref="T:HidSharp.HidDevice" /> this identifier will be created for.</param>
         </member>
         <member name="M:LibreHardwareMonitor.Hardware.Identifier.CompareTo(LibreHardwareMonitor.Hardware.Identifier)">
             <inheritdoc />
@@ -979,6 +1004,11 @@
         <member name="P:LibreHardwareMonitor.Hardware.ParameterDescription.DefaultValue">
             <summary>
             Gets a default value of the parent <see cref="T:LibreHardwareMonitor.Hardware.ISensor"/>.
+            </summary>
+        </member>
+        <member name="T:LibreHardwareMonitor.Hardware.RAMSPDToolkitDriver">
+            <summary>
+            Implementation of <see cref="T:RAMSPDToolkit.Windows.Driver.IDriver"/> interface for RAMSPDToolkit.
             </summary>
         </member>
         <member name="T:LibreHardwareMonitor.Hardware.SensorVisitor">

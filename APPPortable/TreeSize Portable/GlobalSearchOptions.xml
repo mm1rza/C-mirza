@@ -19,8 +19,8 @@
 		<Bottom>695</Bottom>
 	</AddNewScanDialogWindowPlacement.rcNormalPosition>
 	<SearchFormWindowPlacement.length>44</SearchFormWindowPlacement.length>
-	<SearchFormWindowPlacement.flags>0</SearchFormWindowPlacement.flags>
-	<SearchFormWindowPlacement.showCmd>1</SearchFormWindowPlacement.showCmd>
+	<SearchFormWindowPlacement.flags>2</SearchFormWindowPlacement.flags>
+	<SearchFormWindowPlacement.showCmd>3</SearchFormWindowPlacement.showCmd>
 	<SearchFormWindowPlacement.ptMinPosition>
 		<X>-1</X>
 		<Y>-1</Y>

@@ -139,7 +139,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\startup]
 
 [HKEY_CURRENT_USER\Software\GlarySoft\Glary Utilities 5\startup\WndStatus]
-"Main_MAX"=dword:00000000
+"Main_MAX"=dword:00000001
 "Main_Left"=dword:00000204
 "Main_Right"=dword:0000057c
 "Main_TOP"=dword:000000dc
@@ -151,8 +151,8 @@ REGEDIT4
 "List_Width_3"=dword:00000064
 "List_Sys_Sort"=dword:00000000
 "List_Sys_Des"=dword:00000000
-"List_Scheduled_Sort"=dword:00000000
-"List_Scheduled_Des"=dword:00000000
+"List_Scheduled_Sort"=dword:00000003
+"List_Scheduled_Des"=dword:00000001
 "List_Plus_Sort"=dword:00000000
 "List_Plus_Des"=dword:00000000
 "List_Ser_App_Sort"=dword:00000000
