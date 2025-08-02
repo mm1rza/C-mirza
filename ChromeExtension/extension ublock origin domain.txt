@@ -197,7 +197,6 @@ no filtering:
   - app.netwatch.id
   - pddikti.kemdiktisaintek.go.id
   - ddecode.com
-  - obfuscator.io
   - deobfuscate.relative.im
   - fast.com
   - www.waveform.com
@@ -214,6 +213,8 @@ no filtering:
   - www.hotstar.com
   - www.macvendorlookup.com
   - www.internetworldstats.com
+  - www.viu.com
+  - stellafulge.my.id
 basic:
 optimal:
   - all-urls
