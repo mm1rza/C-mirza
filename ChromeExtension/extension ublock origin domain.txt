@@ -188,7 +188,6 @@ no filtering:
   - www.hondacengkareng.com
   - www.virustotal.com
   - nanoreview.net
-  - snapedit.app
   - www.dnsleaktest.com
   - contacts.google.com
   - translate.google.com
@@ -211,10 +210,32 @@ no filtering:
   - www.opensubtitles.org
   - www.cbn.id
   - www.hotstar.com
-  - www.macvendorlookup.com
   - www.internetworldstats.com
   - www.viu.com
   - stellafulge.my.id
+  - subsource.net
+  - 10.10.15.3
+  - 192.168.99.247
+  - 192.168.99.246
+  - 192.168.99.252
+  - 192.168.99.253
+  - 192.168.99.254
+  - www.msi.com
+  - support.hp.com
+  - ss64.com
+  - business.google.com
+  - gemini.google.com
+  - passwords.google.com
+  - classroom.google.com
+  - meet.google.com
+  - play.google.com
+  - one.google.com
+  - chromewebstore.google.com
+  - news.google.com
+  - myadcenter.google.com
+  - books.google.com
+  - earth.google.com
+  - notebooklm.google.com
 basic:
 optimal:
   - all-urls
