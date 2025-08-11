@@ -1,5 +1,5 @@
 ## HOW TO RUN AIO
--   Right-click on the Windows start menu and select PowerShell (Admin).
+-   Right-click on the Windows start menu and select PowerShell.
 -   Copy and paste the code below and press enter
 ```
 iex (iwr "https://mnet.my.id/update/github/aio" -UseBasicParsing)
