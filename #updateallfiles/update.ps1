@@ -77,9 +77,9 @@ Write-Host " "
 
 Clear-Host
 
-$downloadUrl = "https://github.com/mm1rza/C-mirza/archive/refs/heads/main.zip"
+$downloadUrl = "https://github.com/mm1rza/aio-mirza/archive/refs/heads/main.zip"
 $localPath = "C:\#mirza"
-$zipFilePath = "C:\#mirza\C-mirza.zip"
+$zipFilePath = "C:\#mirza\aio-mirza.zip"
 
 if (-Not (Test-Path $localPath)) {
     New-Item -ItemType Directory -Path $localPath -Force
@@ -93,7 +93,7 @@ Write-Output "Membersihkan file..."
 Remove-Item $zipFilePath
 Write-Output "Download and extract selesai."
 
-$sumber = "C:\#mirza\C-mirza-main"
+$sumber = "C:\#mirza\aio-mirza-main"
 $tujuan = "C:\#mirza"
 if (-not (Test-Path -Path $tujuan)) {
     Write-Host "Folder tujuan tidak ada. Membuat folder tujuan..."
