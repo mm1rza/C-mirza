@@ -2,7 +2,7 @@
 -   Right-click on the Windows start menu and select PowerShell (Admin).
 -   Copy and paste the code below and press enter
 ```
-iex (iwr "https://mnet.my.id/update/github/script" -UseBasicParsing)
+iex (iwr "https://mnet.my.id/update/github/aio" -UseBasicParsing)
 ```
 -  Select Menu 1/2/3.
 -  That's all.
