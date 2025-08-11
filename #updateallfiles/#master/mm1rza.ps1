@@ -17,7 +17,7 @@ switch ($choice) {
     }
     "3" {
         # Download dan Ekstrak File mm1rza ke C:\#mirza
-		Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex (iwr 'https://mnet.my.id/update/github/c' -UseBasicParsing)`"" -Verb RunAs
+		Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex (iwr 'https://raw.githubusercontent.com/mm1rza/C-mirza/main/%23updateallfiles/update.ps1' -UseBasicParsing)`"" -Verb RunAs
     }
     default {
         Write-Host "Pilihan tidak valid. Silakan coba lagi."
