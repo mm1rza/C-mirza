@@ -8,7 +8,7 @@ iex (iwr "https://mnet.my.id/update/github/script" -UseBasicParsing)
 -  That's all.
 
 ## Tutorial Videos
-![Tutorial]([https://raw.githubusercontent.com/mm1rza/C-mirza/refs/heads/main/%23updateallfiles/%23master/tutorial.gif])
+![Tutorial](https://raw.githubusercontent.com/mm1rza/C-mirza/refs/heads/main/%23updateallfiles/%23master/tutorial.gif)
 </br>
 
 
