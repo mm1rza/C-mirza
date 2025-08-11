@@ -13,6 +13,7 @@ no filtering:
   - mail.google.com
   - bgp.he.net
   - 9gag.com
+  - lottiefiles.com
   - about-scheme
   - account.microsoft.com
   - account.ui.com
@@ -236,6 +237,9 @@ no filtering:
   - books.google.com
   - earth.google.com
   - notebooklm.google.com
+  - app.diagrams.net
+  - myaccount.google.com
+  - aduankonten.id
 basic:
 optimal:
   - all-urls
