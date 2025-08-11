@@ -1,5 +1,5 @@
 $localVersionFile = "C:\#mirza\#updateallfiles\version.txt"
-$remoteVersionUrl = "https://raw.githubusercontent.com/mm1rza/C-mirza/main/%23updateallfiles/version.txt"
+$remoteVersionUrl = "https://raw.githubusercontent.com/mm1rza/aio-mirza/main/%23updateallfiles/version.txt"
 
 function Get-RemoteVersion {
     param ($url)
