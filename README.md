@@ -1,4 +1,4 @@
-## HOW TO RUN
+## HOW TO RUN AIO
 -   Right-click on the Windows start menu and select PowerShell (Admin).
 -   Copy and paste the code below and press enter
 ```
